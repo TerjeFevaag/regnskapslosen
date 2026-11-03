@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+.env*
+!.env.example
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+# Contains the Pixieset gallery password – never commit
+/Details.txt
+# Originals / working files
+images/original
+/image (2).png
+/Logo.png
+
+# Photo originals (use public/images)
+/gallery
+/regnskapslosen-photo-download-*.zip
