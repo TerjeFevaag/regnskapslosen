@@ -68,10 +68,10 @@ export default function Tripletex() {
             ))}
           </div>
           <Photo
-            name="samarbeid-laptop"
-            alt="To kolleger jobber sammen foran en bærbar PC"
-            className="mt-14 aspect-[16/8]"
-            sizes="(min-width: 1152px) 1100px, 100vw"
+            name="tre-kollegaer"
+            alt="Tre kolleger i en samtale ved glassveggen på kontoret"
+            className="mx-auto mt-14 aspect-[8/5] max-w-3xl"
+            sizes="(min-width: 768px) 768px, 100vw"
           />
         </Container>
       </section>

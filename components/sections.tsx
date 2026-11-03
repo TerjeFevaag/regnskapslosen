@@ -242,6 +242,7 @@ export function OneToOne() {
             name="kontor-kollegaer"
             alt="To kolleger ser på dokumenter sammen ved skrivebordet"
             sizes="(min-width: 1024px) 20vw, 40vw"
+            position="12% center"
             className="aspect-square"
           />
         </div>

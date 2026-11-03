@@ -51,7 +51,7 @@ export default function Footer() {
           <ul className="mt-3 space-y-1 text-white/80">
             {NAV.map((n) => (
               <li key={n.href}>
-                <Link className="py-1.5 hover:text-white" href={n.href}>
+                <Link className="py-2.5 hover:text-white" href={n.href}>
                   {n.label}
                 </Link>
               </li>

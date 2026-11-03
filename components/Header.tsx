@@ -9,7 +9,7 @@ import DropdownEscape from "./DropdownEscape";
 const HEADER_NAV = NAV.filter((n) => n.href !== "/kontakt");
 
 const linkClass =
-  "font-display text-[0.95rem] font-medium text-ink hover:text-green";
+  "py-2 font-display text-[0.95rem] font-medium text-ink hover:text-green";
 
 export default function Header() {
   return (
