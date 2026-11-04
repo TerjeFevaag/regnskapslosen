@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Container, PageHero, Photo, SectionHeading } from "@/components/ui";
-import { ContactBand, History, PhotoStrip, TeamGrid } from "@/components/sections";
+import { ContactBand, History, TeamGrid } from "@/components/sections";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/om-oss" },
@@ -102,9 +102,6 @@ export default function OmOss() {
           </div>
         </Container>
       </section>
-
-      <PhotoStrip />
-      <div className="h-20" />
 
       <ContactBand />
     </>
