@@ -36,13 +36,13 @@ export default function Home() {
           </div>
           <div className="rise rise-2 relative w-full">
             <Photo
-              name="team-gruppe"
-              alt="Teamet i Regnskapslosen: fire kvinner i hvite skjorter på kontoret i Kristiansund"
+              name="hero-gitte-jorunn"
+              alt="Gitte Nilsen og Jorunn Strømsvåg fra Regnskapslosen foran roll-up med logo"
               shape="soft"
               priority
-              position="center"
+              position="center top"
               sizes="(min-width: 1024px) 45vw, 100vw"
-              className="aspect-[4/3] w-full"
+              className="aspect-[3/4] w-full"
             />
             <p className="absolute -right-2 bottom-6 rounded-md bg-white px-5 py-2 font-display text-sm font-semibold text-green shadow-lg sm:-right-6">
               100 % lokaleid
