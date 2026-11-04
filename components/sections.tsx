@@ -191,7 +191,7 @@ export function ContactBand() {
           </div>
         </div>
         <Photo
-          name="team-gitte-nilsen"
+          name="gitte-nilsen-dagligleder"
           alt="Gitte Nilsen, daglig leder i Regnskapslosen"
           shape="soft"
           position="center 20%"
