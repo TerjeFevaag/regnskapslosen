@@ -20,11 +20,12 @@ export default function Home() {
           <div>
             <Eyebrow>Personlig regnskapshjelp, én til én</Eyebrow>
             <h1 className="rise text-4xl sm:text-5xl lg:text-[3.3rem]">
-              Autorisert regnskapskontor i Kristiansund
+              Autorisert regnskapskontor for bedrifter i hele Norge
             </h1>
             <p className="rise rise-2 mt-6 max-w-xl text-lg text-muted">
               Profesjonell bistand innen regnskap, lønn og økonomistyring for
-              små og mellomstore bedrifter. Du får en fast kontaktperson som
+              små og mellomstore bedrifter. Vi jobber digitalt i Tripletex og
+              betjener kunder over hele landet. Du får en fast kontaktperson som
               kjenner virksomheten din, og som tar seg tid til deg.
             </p>
             <div className="rise rise-2 mt-9 flex flex-wrap gap-4">
@@ -75,7 +76,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Møt oss"
             title="Menneskene bak Regnskapslosen"
-            intro="Fire fagpersoner som kjenner Kristiansund og næringslivet her."
+            intro="Fire fagpersoner med solid kompetanse innen regnskap og økonomi."
           />
           <div className="mt-12">
             <TeamGrid />
@@ -100,9 +101,10 @@ export default function Home() {
                 Fra Hjelseth til Regnskapslosen
               </h2>
               <p className="mt-5 text-lg text-muted">
-                Regnskapslosen AS er et 100 % lokaleid regnskapskontor i
-                sentrum av Kristiansund. Vår målsetting er verdiskaping for
-                kundene gjennom økt lønnsomhet og bedre kontroll.
+                Regnskapslosen AS er et 100 % lokaleid regnskapskontor med
+                kontor i Kristiansund. Vi betjener bedrifter i hele Norge.
+                Vår målsetting er verdiskaping for kundene gjennom økt
+                lønnsomhet og bedre kontroll.
               </p>
             </div>
             <Photo

@@ -23,8 +23,8 @@ export default function Footer() {
             />
           </Link>
           <p className="mt-5 max-w-xs text-white/80">
-            Lokaleid regnskapskontor i sentrum av Kristiansund. Sammen loser vi
-            dere trygt i havn.
+            100 % lokaleid regnskapskontor med kontor i Kristiansund. Vi betjener
+            bedrifter i hele Norge – sammen loser vi dere trygt i havn.
           </p>
         </div>
 

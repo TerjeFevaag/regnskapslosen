@@ -20,7 +20,7 @@ const body = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Regnskapskontor i Kristiansund | Regnskapslosen AS",
+    default: "Autorisert regnskapskontor – hele Norge | Regnskapslosen AS",
     template: "%s | Regnskapslosen AS",
   },
   description:

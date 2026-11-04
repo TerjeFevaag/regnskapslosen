@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/om-oss" },
   title: "Om oss",
   description:
-    "Regnskapslosen AS er et 100 % lokaleid regnskapskontor i sentrum av Kristiansund. Møt teamet og les historien vår.",
+    "Regnskapslosen AS er et 100 % lokaleid regnskapskontor med kontor i Kristiansund. Vi betjener bedrifter i hele Norge. Møt teamet og les historien vår.",
 };
 
 export default function OmOss() {
@@ -14,7 +14,7 @@ export default function OmOss() {
     <>
       <PageHero
         title="Om oss"
-        intro="Regnskapslosen AS er et 100 % lokaleid regnskapskontor i sentrum av Kristiansund."
+        intro="Regnskapslosen AS er et 100 % lokaleid regnskapskontor med kontor i Kristiansund. Vi betjener bedrifter i hele Norge."
       />
 
       <section className="py-16">
