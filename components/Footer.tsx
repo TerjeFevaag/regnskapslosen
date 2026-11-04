@@ -38,6 +38,10 @@ export default function Footer() {
             <a className="underline underline-offset-2 hover:text-white" href={SITE.phoneHref}>
               {SITE.phone}
             </a>
+            {" / "}
+            <a className="underline underline-offset-2 hover:text-white" href={SITE.phone2Href}>
+              {SITE.phone2}
+            </a>
             <br />
             <a className="underline underline-offset-2 hover:text-white" href={`mailto:${SITE.email}`}>
               {SITE.email}

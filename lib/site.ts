@@ -1,8 +1,10 @@
 export const SITE = {
   name: "Regnskapslosen AS",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://regnskapslosen.no",
-  phone: "+47 71 67 45 22",
-  phoneHref: "tel:+4771674522",
+  phone: "+47 986 86 610",
+  phoneHref: "tel:+4798686610",
+  phone2: "+47 454 74 718",
+  phone2Href: "tel:+4745474718",
   email: "post@regnskapslosen.no",
   street: "Storgata 2",
   postcode: "6509",

@@ -77,7 +77,7 @@ export default function ContactForm() {
       </button>
       {state === "error" && (
         <p role="alert" className="text-red-700">
-          {message} Du kan også ringe oss på 71 67 45 22 eller skrive til post@regnskapslosen.no.
+          {message} Du kan også ringe oss på 986 86 610 eller 454 74 718, eller skrive til post@regnskapslosen.no.
         </p>
       )}
     </form>
