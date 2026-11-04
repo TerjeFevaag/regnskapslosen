@@ -4,7 +4,6 @@ import {
   ContactBand,
   History,
   OneToOne,
-  PhotoStrip,
   ServicesGrid,
   Steps,
   TeamGrid,
@@ -118,8 +117,6 @@ export default function Home() {
           </div>
         </Container>
       </section>
-
-      <PhotoStrip />
 
       <FaqSection faqs={HOME_FAQS} tone="blush" />
 

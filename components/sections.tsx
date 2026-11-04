@@ -11,15 +11,6 @@ export function ServicesGrid() {
           key={s.slug}
           className="group flex flex-col overflow-hidden rounded-md border border-slate-1 bg-white transition-shadow hover:shadow-lg"
         >
-          <Link href={`/tjenester/${s.slug}`} tabIndex={-1} aria-hidden>
-            <Photo
-              name={s.image.name}
-              alt=""
-              position={s.image.position}
-              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-              className="aspect-[3/2] !rounded-none"
-            />
-          </Link>
           <div className="flex flex-1 flex-col p-6">
             <h3 className="text-xl">
               <Link href={`/tjenester/${s.slug}`} className="hover:underline">
