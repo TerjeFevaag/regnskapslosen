@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <section className="bg-mist">
-        <Container className="grid items-center gap-12 pb-6 pt-12 sm:pt-16 lg:grid-cols-[1.05fr_1fr]">
+        <Container className="grid items-center gap-12 pb-6 pt-6 sm:pt-10 lg:grid-cols-[1.05fr_1fr]">
           <div>
             <Eyebrow>Personlig regnskapshjelp, én til én</Eyebrow>
             <h1 className="rise text-4xl sm:text-5xl lg:text-[3.3rem]">
