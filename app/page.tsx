@@ -49,7 +49,7 @@ export default function Home() {
             </p>
           </div>
         </Container>
-        <Mountains className="mt-10 h-20 sm:h-32" />
+        <Mountains className="relative z-10 -mt-16 h-20 sm:h-32" />
       </section>
 
       <OneToOne />
