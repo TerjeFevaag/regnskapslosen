@@ -10,6 +10,8 @@ export type Service = {
   forWho: string;
   /** Photo in /public/images (without extension) used on cards and in the page hero. */
   image: { name: string; alt: string; position?: string };
+  /** Team member image key (e.g. "team-grete-orsal") shown in the contact-person aside. Overrides auto-rotation. */
+  teamMember?: string;
   /** Draft FAQ copy – must be reviewed by the client. */
   faqs: Faq[];
 };
@@ -37,6 +39,7 @@ export const SERVICES: Service[] = [
     forWho:
       "Enkeltpersonforetak, mindre bedrifter og aksjeselskaper som vil ha et regnskap de kan stole på.",
     image: { name: "radgivning-kunde", alt: "Regnskapsfører i møte med en kunde ved skrivebordet", position: "center" },
+    teamMember: "team-grete-orsal",
     faqs: [
       { q: "Hva er inkludert i regnskap fra A til Å?", a: "Vi tar oss av løpende bokføring, avstemming, lønnskjøring, mva-melding og årsoppgjør, og forklarer tallene underveis. Nøyaktig omfang avtaler vi med deg ut fra størrelsen på virksomheten." },
       { q: "Må jeg bruke Tripletex?", a: "Vi fører regnskap i Tripletex, og anbefaler det fordi du får full oversikt i et nettbasert system der vi jobber sammen. Snakk med oss hvis du bruker noe annet i dag, så finner vi en god løsning." },

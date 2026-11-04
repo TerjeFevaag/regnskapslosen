@@ -48,8 +48,9 @@ export default async function ServicePage({ params }: Props) {
   ];
 
   const others = SERVICES.filter((o) => o.slug !== s.slug);
-  // Rotate team portraits across the service pages (no named assignment implied).
-  const person = TEAM[SERVICES.findIndex((x) => x.slug === s.slug) % TEAM.length];
+  const person = s.teamMember
+    ? (TEAM.find((t) => t.image === s.teamMember) ?? TEAM[SERVICES.findIndex((x) => x.slug === s.slug) % TEAM.length])
+    : TEAM[SERVICES.findIndex((x) => x.slug === s.slug) % TEAM.length];
 
   return (
     <>
