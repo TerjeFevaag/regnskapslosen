@@ -68,8 +68,8 @@ export default function Tripletex() {
             ))}
           </div>
           <Photo
-            name="tre-kollegaer"
-            alt="Tre kolleger i en samtale ved glassveggen på kontoret"
+            name="tripletex-partner"
+            alt="Regnskapslosen – sertifisert Tripletex-partner"
             className="mx-auto mt-14 aspect-[8/5] max-w-3xl"
             sizes="(min-width: 768px) 768px, 100vw"
           />
