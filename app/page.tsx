@@ -60,7 +60,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Hva kan vi hjelpe med?"
             title="Tjenester"
-            intro="Fra daglig bokføring til rådgiving og digitalisering. Vi hjelper alt fra enkeltpersonforetak til aksjeselskaper."
+            intro="Fra daglig bokføring til rådgiving og digitalisering. Vi hjelper alt fra enkeltpersonforetak til større aksjeselskaper."
           />
           <div className="mt-12">
             <ServicesGrid />
