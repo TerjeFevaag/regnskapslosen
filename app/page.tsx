@@ -106,8 +106,8 @@ export default function Home() {
               </p>
             </div>
             <Photo
-              name="tre-kollegaer"
-              alt="Tre kolleger i samtale ved døren til møterommet"
+              name="navnebytte"
+              alt="Regnskapslosen AS ved navnebyttet i 2024"
               className="aspect-[16/10]"
               sizes="(min-width: 1024px) 55vw, 100vw"
             />
