@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-/** Lets Escape close the desktop Tjenester dropdown (it otherwise opens on hover/focus via CSS). */
+/** Lets Escape or a link click close the desktop Tjenester dropdown (it otherwise opens on hover/focus via CSS). */
 export default function DropdownEscape() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -20,11 +20,22 @@ export default function DropdownEscape() {
         if (el !== t) el.classList.remove("dd-closed");
       });
     };
+    // Header persists across client-side navigation, so close the dropdown when a link in it is clicked.
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const dropdown = target?.closest?.(".has-dropdown");
+      if (dropdown && target?.closest?.("a")) {
+        dropdown.classList.add("dd-closed");
+        (document.activeElement as HTMLElement | null)?.blur?.();
+      }
+    };
     document.addEventListener("keydown", onKey);
+    document.addEventListener("click", onClick);
     document.addEventListener("pointerover", reopen);
     document.addEventListener("focusin", reopen);
     return () => {
       document.removeEventListener("keydown", onKey);
+      document.removeEventListener("click", onClick);
       document.removeEventListener("pointerover", reopen);
       document.removeEventListener("focusin", reopen);
     };
