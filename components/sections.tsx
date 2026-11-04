@@ -191,10 +191,10 @@ export function ContactBand() {
           </div>
         </div>
         <Photo
-          name="grete-dor"
-          alt="Grete Ørsal smiler ved en glassdør på kontoret"
+          name="team-gitte-nilsen"
+          alt="Gitte Nilsen, daglig leder i Regnskapslosen"
           shape="soft"
-          position="center 30%"
+          position="center 20%"
           sizes="384px"
           className="hidden aspect-[5/4] w-72 md:block lg:w-96"
         />
