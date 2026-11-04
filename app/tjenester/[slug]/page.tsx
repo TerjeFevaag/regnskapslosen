@@ -57,7 +57,6 @@ export default async function ServicePage({ params }: Props) {
         title={s.title}
         intro={s.text}
         eyebrow="Våre tjenester"
-        image={s.image}
       />
       <section className="py-16">
         <Container className="grid gap-12 lg:grid-cols-[1.3fr_1fr]">
