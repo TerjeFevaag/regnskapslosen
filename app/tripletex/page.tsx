@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Container, PageHero, Photo, SectionHeading } from "@/components/ui";
+import Image from "next/image";
+import { Container, PageHero, SectionHeading } from "@/components/ui";
 import { ContactBand, TripletexSection } from "@/components/sections";
 import { FaqSection } from "@/components/Faq";
 
@@ -67,11 +68,13 @@ export default function Tripletex() {
               </div>
             ))}
           </div>
-          <Photo
-            name="tripletex-partner"
-            alt="Regnskapslosen – sertifisert Tripletex-partner"
-            className="mx-auto mt-14 aspect-[8/5] max-w-3xl"
-            sizes="(min-width: 768px) 768px, 100vw"
+          <Image
+            src="/images/tripletex-partner.webp"
+            alt="Regnskapslosen-teamet foran Tripletex sertifisert partner-banner"
+            width={1024}
+            height={581}
+            quality={90}
+            className="mx-auto mt-14 h-auto w-full max-w-3xl rounded-md"
           />
         </Container>
       </section>
