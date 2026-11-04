@@ -244,8 +244,8 @@ export function OneToOne() {
           </h2>
           <p className="mt-5 text-lg text-muted">
             Hos oss møter du ikke bare et system, men et lite team som kjenner
-            Kristiansund og næringslivet her. Vi bryr oss om at du skal lykkes,
-            og at du forstår økonomien din.
+            virksomheten din. Vi bryr oss om at du skal lykkes, og at du
+            forstår økonomien din.
           </p>
           <ul className="mt-6 space-y-3 text-lg">
             {points.map((p) => (
