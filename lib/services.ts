@@ -119,7 +119,7 @@ export const SERVICES: Service[] = [
     ],
     forWho: "Deg som skal starte egen virksomhet, eller endre selskapsform.",
     image: { name: "to-kollegaer-banner", alt: "To kolleger fra Regnskapslosen foran roll-up på kontoret", position: "center" },
-    teamMember: "team-anna-dillan",
+    teamMember: "team-grete-orsal",
     faqs: [
       { q: "Hvilken selskapsform bør jeg velge?", a: "Det avhenger av risiko, økonomi, antall eiere og planene dine. Vi går gjennom alternativene med deg, for eksempel enkeltpersonforetak og aksjeselskap." },
       { q: "Hjelper dere med registrering?", a: "Ja, vi hjelper deg å registrere selskapet og følger opp det praktiske etterpå." },
@@ -146,7 +146,7 @@ export const SERVICES: Service[] = [
     forWho:
       "Bedrifter som trenger bedre kontroll og oversikt, men ikke har egen økonomiavdeling.",
     image: { name: "kontor-kollegaer", alt: "Regnskapsfører og kollega ved skrivebordet", position: "center" },
-    teamMember: "team-grete-orsal",
+    teamMember: "team-anna-dillan",
     faqs: [
       { q: "Hva gjør en controller for meg?", a: "Vi følger opp regnskapet gjennom året, slik at tallene er riktige, og hjelper deg med budsjett, likviditet og rapportering." },
       { q: "Trenger jeg dette hvis dere allerede fører regnskapet?", a: "Regnskapet viser hva som har skjedd. Controllerrollen handler om å bruke tallene til å styre fremover." },
