@@ -195,8 +195,8 @@ export function ContactBand() {
           alt="Gitte Nilsen, daglig leder i Regnskapslosen"
           shape="soft"
           position="center 20%"
-          sizes="384px"
-          className="hidden aspect-[5/4] w-72 md:block lg:w-96"
+          sizes="(min-width: 768px) 384px, min(384px, 100vw)"
+          className="aspect-[5/4] w-full max-w-sm mx-auto md:w-72 md:mx-0 lg:w-96"
         />
       </Container>
       <Mountains className="mt-10 h-16 sm:h-24" />
