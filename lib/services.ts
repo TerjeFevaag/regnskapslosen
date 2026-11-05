@@ -94,6 +94,7 @@ export const SERVICES: Service[] = [
     forWho:
       "Bedrifter som vil ha ryddigere økonomirutiner og færre overraskelser.",
     image: { name: "mote-gjennomgang", alt: "Regnskapslosen-teamet planlegger oppgaver sammen i møterom", position: "center" },
+    teamMember: "team-jorunn-stromsvag",
     faqs: [
       { q: "Hva menes med strukturering?", a: "Vi lager en tydelig plan for hvem som gjør hva og når, slik at økonomioppgavene blir forutsigbare for alle." },
       { q: "Hjelper dere med frister?", a: "Ja. Vi gir deg oversikt over frister og sørger for at rutinene er på plass, så du slipper overraskelser." },
@@ -118,7 +119,7 @@ export const SERVICES: Service[] = [
     ],
     forWho: "Deg som skal starte egen virksomhet, eller endre selskapsform.",
     image: { name: "to-kollegaer-banner", alt: "To kolleger fra Regnskapslosen foran roll-up på kontoret", position: "center" },
-    teamMember: "team-jorunn-stromsvag",
+    teamMember: "team-anna-dillan",
     faqs: [
       { q: "Hvilken selskapsform bør jeg velge?", a: "Det avhenger av risiko, økonomi, antall eiere og planene dine. Vi går gjennom alternativene med deg, for eksempel enkeltpersonforetak og aksjeselskap." },
       { q: "Hjelper dere med registrering?", a: "Ja, vi hjelper deg å registrere selskapet og følger opp det praktiske etterpå." },
