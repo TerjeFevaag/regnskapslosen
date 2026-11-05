@@ -18,7 +18,6 @@ export default function Kontakt() {
       <PageHero
         title="Kontakt oss"
         eyebrow="Vi hører gjerne fra deg"
-        image={{ name: "team-gruppe", alt: "Teamet i Regnskapslosen smiler til kamera", position: "center 45%" }}
         intro="Send oss en melding, ring eller kom innom kontoret. Vi svarer vanligvis innen en virkedag."
       />
       <section className="py-16">
