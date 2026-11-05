@@ -67,6 +67,7 @@ export const SERVICES: Service[] = [
     forWho:
       "Bedrifter som bruker mye tid på manuelt arbeid, eller som vil få mer ut av systemene de allerede har.",
     image: { name: "mote-tripletex", alt: "Regnskapslosens team i møterommet, med Tripletex på skjermen", position: "center" },
+    teamMember: "team-anna-dillan",
     faqs: [
       { q: "Hva betyr digitalisering og optimalisering i praksis?", a: "Vi går gjennom hvordan du jobber i dag, og finner oppgaver som kan gjøres enklere, raskere og med færre feil. Deretter hjelper vi deg å sette det opp og ta det i bruk." },
       { q: "Må vi bytte regnskapssystem?", a: "Ikke nødvendigvis. Vi ser først på hva dere har, og om dere kan få mer ut av det. Skal dere bytte, hjelper vi dere gjennom overgangen." },
@@ -117,6 +118,7 @@ export const SERVICES: Service[] = [
     ],
     forWho: "Deg som skal starte egen virksomhet, eller endre selskapsform.",
     image: { name: "to-kollegaer-banner", alt: "To kolleger fra Regnskapslosen foran roll-up på kontoret", position: "center" },
+    teamMember: "team-jorunn-stromsvag",
     faqs: [
       { q: "Hvilken selskapsform bør jeg velge?", a: "Det avhenger av risiko, økonomi, antall eiere og planene dine. Vi går gjennom alternativene med deg, for eksempel enkeltpersonforetak og aksjeselskap." },
       { q: "Hjelper dere med registrering?", a: "Ja, vi hjelper deg å registrere selskapet og følger opp det praktiske etterpå." },
@@ -143,6 +145,7 @@ export const SERVICES: Service[] = [
     forWho:
       "Bedrifter som trenger bedre kontroll og oversikt, men ikke har egen økonomiavdeling.",
     image: { name: "kontor-kollegaer", alt: "Regnskapsfører og kollega ved skrivebordet", position: "center" },
+    teamMember: "team-grete-orsal",
     faqs: [
       { q: "Hva gjør en controller for meg?", a: "Vi følger opp regnskapet gjennom året, slik at tallene er riktige, og hjelper deg med budsjett, likviditet og rapportering." },
       { q: "Trenger jeg dette hvis dere allerede fører regnskapet?", a: "Regnskapet viser hva som har skjedd. Controllerrollen handler om å bruke tallene til å styre fremover." },
