@@ -94,25 +94,17 @@ export default function Home() {
 
       <section className="py-20">
         <Container>
-          <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.2fr]">
-            <div>
-              <Eyebrow>Lokaleid, med nærhet</Eyebrow>
-              <h2 className="text-3xl sm:text-4xl">
-                Fra Hjelseth til Regnskapslosen
-              </h2>
-              <p className="mt-5 text-lg text-muted">
-                Regnskapslosen AS er et 100 % lokaleid regnskapskontor med
-                kontor i Kristiansund. Vi betjener bedrifter i hele Norge.
-                Vår målsetting er verdiskaping for kundene gjennom økt
-                lønnsomhet og bedre kontroll.
-              </p>
-            </div>
-            <Photo
-              name="navnebytte"
-              alt="Regnskapslosen AS ved navnebyttet i 2024"
-              className="aspect-[16/10]"
-              sizes="(min-width: 1024px) 55vw, 100vw"
-            />
+          <div>
+            <Eyebrow>Lokaleid, med nærhet</Eyebrow>
+            <h2 className="text-3xl sm:text-4xl">
+              Fra Hjelseth til Regnskapslosen
+            </h2>
+            <p className="mt-5 max-w-2xl text-lg text-muted">
+              Regnskapslosen AS er et 100 % lokaleid regnskapskontor med
+              kontor i Kristiansund. Vi betjener bedrifter i hele Norge.
+              Vår målsetting er verdiskaping for kundene gjennom økt
+              lønnsomhet og bedre kontroll.
+            </p>
           </div>
           <div className="mt-12">
             <History />
