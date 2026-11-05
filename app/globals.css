@@ -21,9 +21,16 @@
   font-family: var(--font-heading), system-ui, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
   color: var(--color-green);
+}
+
+@media (min-width: 640px) {
+  .accent {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+  }
 }
 
 /* Dropdown in desktop menu: opens on hover and when focus is inside */
