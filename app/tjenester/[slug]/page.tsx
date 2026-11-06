@@ -113,7 +113,7 @@ export default async function ServicePage({ params }: Props) {
       <FaqSection
         faqs={s.faqs}
         tone="blush"
-        title={`Spørsmål om ${s.title.charAt(0).toLowerCase() + s.title.slice(1)}`}
+        title={`Spørsmål om ${(s.shortTitle ?? s.title).charAt(0).toLowerCase() + (s.shortTitle ?? s.title).slice(1)}`}
       />
 
       <section className="py-14">

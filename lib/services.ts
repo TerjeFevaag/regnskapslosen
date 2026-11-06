@@ -3,6 +3,8 @@
 export type Service = {
   slug: string;
   title: string;
+  /** Short title used in FAQ heading when the full title is too long (e.g. "Regnskap" vs "Regnskap fra A til Å"). */
+  shortTitle?: string;
   text: string;
   metaDescription: string;
   intro: string[];
@@ -22,6 +24,7 @@ export const SERVICES: Service[] = [
   {
     slug: "regnskap",
     title: "Regnskap fra A til Å",
+    shortTitle: "Regnskap",
     text: "Du skal ikke bruke en dag mer enn nødvendig på regnskapet. Vi tar alt det løpende – og sier fra hvis noe krever din oppmerksomhet.",
     metaDescription:
       "Komplett regnskap og lønnskjøring i Kristiansund, for alt fra enkeltpersonforetak til aksjeselskaper. Regnskapslosen fører regnskapet i Tripletex.",
