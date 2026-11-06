@@ -147,7 +147,7 @@ export function PageHero({
   return (
     <section className="bg-mist">
       <Container
-        className={`pb-2 pt-14 sm:pt-20 ${
+        className={`pb-14 pt-14 sm:pb-20 sm:pt-20 ${
           image ? "grid items-center gap-10 lg:grid-cols-[1.2fr_1fr]" : ""
         }`}
       >
