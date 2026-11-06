@@ -22,7 +22,7 @@ export const SERVICES: Service[] = [
   {
     slug: "regnskap",
     title: "Regnskap fra A til Å",
-    text: "Regnskapet skal alltid stemme og fristene holdes – uten at du trenger å bruke tid på det selv. Vi tar det løpende fra første bilag til årsoppgjøret.",
+    text: "Du skal ikke bruke en dag mer enn nødvendig på regnskapet. Vi tar alt det løpende – og sier fra hvis noe krever din oppmerksomhet.",
     metaDescription:
       "Komplett regnskap og lønnskjøring i Kristiansund, for alt fra enkeltpersonforetak til aksjeselskaper. Regnskapslosen fører regnskapet i Tripletex.",
     intro: [
@@ -30,14 +30,14 @@ export const SERVICES: Service[] = [
       "Vi tar over det løpende arbeidet: bokføring, lønnskjøring, mva-meldinger og årsoppgjør. Du får en fast kontaktperson som kjenner virksomheten din, og tilgang til egne tall i Tripletex når du vil.",
     ],
     points: [
-      "Løpende bokføring og avstemming",
-      "Lønnskjøring",
-      "Mva-melding og andre frister",
+      "Løpende bokføring og bankavstemming",
+      "Lønnskjøring og feriepengeberegning",
+      "Mva-meldinger og skattefrister – vi passer på dem for deg",
       "Årsregnskap og årsoppgjør",
-      "Oppfølging og forklaring av tallene",
+      "Forklaring av tallene – på et språk du forstår",
     ],
     forWho:
-      "Enkeltpersonforetak, mindre bedrifter og aksjeselskaper som vil ha et regnskap de kan stole på.",
+      "Bedrifter fra enkeltpersonforetak til aksjeselskap som vil ha et regnskap de kan stole på – og slippe å tenke på det til hverdag.",
     image: { name: "radgivning-kunde", alt: "Regnskapsfører i møte med en kunde ved skrivebordet", position: "center" },
     teamMember: "team-grete-orsal",
     faqs: [
@@ -56,13 +56,13 @@ export const SERVICES: Service[] = [
       "Digitalisering og optimalisering av arbeidsoppgaver og rutiner i regnskap og økonomi. Regnskapslosen hjelper bedrifter i Kristiansund.",
     intro: [
       "Digitalisering og optimalisering er der Regnskapslosen startet. Vi har hjulpet mange bedrifter finne arbeidsoppgaver som kan automatiseres, systemer som snakker bedre sammen, og rutiner som faktisk holder i hverdagen.",
-      "Vi begynner alltid med en gjennomgang av hvordan dere jobber i dag. Deretter setter vi opp systemene riktig, lærer opp de som skal bruke dem, og følger opp til det fungerer.",
+      "Vi kartlegger hva som faktisk er problemet, setter opp systemene riktig og sørger for at alle som bruker dem vet hvordan. Mange bedrifter opplever at oppgaver som tok en dag i måneden krymper til en time.",
     ],
     points: [
-      "Gjennomgang av dagens rutiner",
-      "Oppsett og bruk av Tripletex",
-      "Mindre manuelt arbeid og færre feil",
-      "Opplæring av ansatte",
+      "Kartlegging av hva som kan automatiseres eller forbedres",
+      "Oppsett og konfigurasjon av Tripletex",
+      "Integrasjoner mellom eksisterende systemer",
+      "Opplæring og oppfølging frem til det sitter",
     ],
     forWho:
       "Bedrifter som bruker mye tid på manuelt arbeid, eller som vil få mer ut av systemene de allerede har.",
@@ -169,13 +169,13 @@ export const SERVICES: Service[] = [
       "Vi regner på konsekvensene, presenterer alternativene og gir deg et klart bilde av hva som passer for din situasjon. Du bestemmer – vi sørger for at du har grunnlaget for å gjøre det trygt.",
     ],
     points: [
-      "Rådgiving i økonomiske spørsmål",
-      "Konsulenthjelp i prosjekter",
-      "Gjennomgang av lønnsomhet",
+      "Lønnsuttaksstrategi – optimal balanse mellom lønn og utbytte",
+      "Gjennomgang av lønnsomhet og kostnadsdrivere",
+      "Rådgiving ved investering, ansettelse og omstrukturering",
       "Beslutningsstøtte basert på tallene dine",
     ],
     forWho:
-      "Bedriftseiere og ledere som trenger en sparringspartner i økonomi.",
+      "Bedriftseiere som har spørsmål de ikke finner svaret på i regnskapet alene – lønnsuttaksstrategi, investeringer, ombygging eller vekstplaner.",
     image: { name: "samtale-grete-jorunn", alt: "Rådgiver og kunde i et rolig en-til-en-møte", position: "center" },
     faqs: [
       { q: "Hva bør jeg ta i lønn fra AS-et mitt?", a: "Det er et av de vanligste rådgivingsspørsmålene, og det finnes ikke ett svar. Lønn gir deg pensjon via folketrygden og er fradragsberettiget i selskapet, men belastes trygdeavgift. Utbytte beskattes som kapitalinntekt uten trygdeavgift, men er ikke fradragsberettiget. Den optimale kombinasjonen avhenger av din inntekt, alder og selskapets økonomi. Vi regner på din situasjon." },
