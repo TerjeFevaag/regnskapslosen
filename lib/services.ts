@@ -174,10 +174,11 @@ export const SERVICES: Service[] = [
       "Bedriftseiere og ledere som trenger en sparringspartner i økonomi.",
     image: { name: "samtale-grete-jorunn", alt: "Rådgiver og kunde i et rolig en-til-en-møte", position: "center" },
     faqs: [
-      { q: "Hva kan jeg få rådgiving om?", a: "Alt fra lønnsomhet og beslutninger i bedriften til økonomiske spørsmål som dukker opp underveis." },
-      { q: "Er rådgivingen personlig?", a: "Ja. Du snakker direkte med en av oss som setter seg inn i din virksomhet." },
-      { q: "Hjelper dere også i prosjekter?", a: "Ja, vi kan bistå som økonomisk konsulent i større og mindre prosjekter." },
-      { q: "Hvordan kommer jeg i gang?", a: "Ta kontakt på telefon eller e-post, eller send meldingen via kontaktskjemaet." },
+      { q: "Hva bør jeg ta i lønn fra AS-et mitt?", a: "Det er et av de vanligste rådgivingsspørsmålene, og det finnes ikke ett svar. Lønn gir deg pensjon via folketrygden og er fradragsberettiget i selskapet, men belastes trygdeavgift. Utbytte beskattes som kapitalinntekt uten trygdeavgift, men er ikke fradragsberettiget. Den optimale kombinasjonen avhenger av din inntekt, alder og selskapets økonomi. Vi regner på din situasjon." },
+      { q: "Er det gunstig å kjøpe bil gjennom selskapet?", a: "Det avhenger av bruksmønsteret. Fordelsbeskatning av yrkesbil er høy og kan fort utslette fordelen for de fleste. For biler med mye yrkeskjøring kan det likevel lønne seg. Vi går gjennom tallene for deg før du bestemmer deg." },
+      { q: "Hva betyr det at bedriften er lønnsom men ikke har penger?", a: "Resultatet og likviditeten er to forskjellige ting. Bedriften kan vise overskudd mens pengene er bundet i varelager, utestående fakturaer eller avdrag på lån. Vi hjelper deg forstå sammenhengen og planlegge deretter." },
+      { q: "Hva bør jeg tenke på hvis jeg vil selge bedriften en dag?", a: "Det er lurt å begynne tidlig. Kjøpere ser på struktur, historikk og lønnsomhet over tid. Vi kan hjelpe deg sette bedriften i stand for salg og gi deg et realistisk bilde av verdien." },
+      { q: "Hva er forskjellen på rådgiving og controller-tjeneste?", a: "Controller handler om løpende oppfølging av tall gjennom året. Rådgiving er mer situasjonsbestemt: en beslutning du skal ta, en problemstilling du vil forstå, eller et spørsmål du ikke finner svaret på andre steder." },
     ],
   },
 ];
