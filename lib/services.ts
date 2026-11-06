@@ -79,21 +79,21 @@ export const SERVICES: Service[] = [
   {
     slug: "strukturering",
     title: "Strukturering",
-    text: "Vi planlegger oppgavene og iverksetter deloppgavene som trengs for å nå målet. God planlegging gjør prosessene forutsigbare for alle parter.",
+    text: "Uklare rutiner og ansvar koster tid og skaper unødvendige feil. Vi setter opp et system der alle vet hva de skal gjøre – og når.",
     metaDescription:
-      "Strukturering og planlegging av økonomioppgaver og rutiner. Regnskapslosen i Kristiansund gjør prosessene forutsigbare.",
+      "Rydd opp i økonomirutinene: Regnskapslosen setter opp klare ansvarslinjer, faste prosesser og oversikt over frister for bedriften din.",
     intro: [
-      "Vi planlegger oppgavene og iverksetter deloppgavene som trengs for å fullføre en oppgave.",
-      "God planlegging gjør prosessene forutsigbare for alle parter.",
+      "Mange bedrifter samler opp bilag, glemmer frister og er usikre på hvem som egentlig har ansvar for hva i regnskapet. Strukturering handler om å rydde opp i det – og holde det ryddig.",
+      "Vi kartlegger hvordan dere jobber i dag, finner flaskehalsene og lager et opplegg som fungerer i hverdagen. Resultatet er færre overraskelser, bedre kontroll og et regnskap som er klart når det skal være det.",
     ],
     points: [
-      "Plan for hvem som gjør hva, og når",
+      "Kartlegging av dagens rutiner og ansvarsfordeling",
       "Faste rutiner for bilag og innrapportering",
-      "Oversikt over frister",
+      "Oversikt over frister og rapporteringsplikter",
       "Tydelig oppgavefordeling mellom deg og oss",
     ],
     forWho:
-      "Bedrifter som vil ha ryddigere økonomirutiner og færre overraskelser.",
+      "Voksende bedrifter og nye AS-er som vil ha orden fra starten, og etablerte bedrifter som har merket at rutinene ikke lenger henger sammen.",
     image: { name: "mote-gjennomgang", alt: "Regnskapslosen-teamet planlegger oppgaver sammen i møterom", position: "center" },
     teamMember: "team-jorunn-stromsvag",
     faqs: [
