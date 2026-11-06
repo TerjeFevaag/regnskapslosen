@@ -41,11 +41,11 @@ export const SERVICES: Service[] = [
     image: { name: "radgivning-kunde", alt: "Regnskapsfører i møte med en kunde ved skrivebordet", position: "center" },
     teamMember: "team-grete-orsal",
     faqs: [
-      { q: "Hva er inkludert i regnskap fra A til Å?", a: "Vi tar oss av løpende bokføring, avstemming, lønnskjøring, mva-melding og årsoppgjør, og forklarer tallene underveis. Nøyaktig omfang avtaler vi med deg ut fra størrelsen på virksomheten." },
-      { q: "Må jeg bruke Tripletex?", a: "Vi fører regnskap i Tripletex, og anbefaler det fordi du får full oversikt i et nettbasert system der vi jobber sammen. Snakk med oss hvis du bruker noe annet i dag, så finner vi en god løsning." },
-      { q: "Får jeg en fast kontaktperson?", a: "Ja. Du har en fast kontaktperson som kjenner virksomheten din, slik at du slipper å forklare alt på nytt hver gang." },
-      { q: "Kan jeg levere bilag selv?", a: "Ja. Vi setter opp en enkel rutine for bilag, og viser deg hvordan du leverer dem digitalt i Tripletex." },
-      { q: "Hjelper dere også enkeltpersonforetak?", a: "Ja. Vi hjelper alt fra små enkeltpersonforetak til større aksjeselskaper." },
+      { q: "Hva er grensen for mva-registrering?", a: "Du må registrere deg i Merverdiavgiftsregisteret når omsetningen de siste 12 månedene overstiger 50 000 kroner. Vi hjelper deg å vurdere når det er aktuelt og registrerer deg." },
+      { q: "Hva skjer hvis vi ikke leverer mva-meldingen i tide?", a: "Skatteetaten ilegger forsinkelsesgebyr, og renter kan løpe fra fristen. Vi følger opp alle frister for deg slik at det ikke skjer." },
+      { q: "Kan jeg trekke fra mva på alle kjøp?", a: "Nei, bare kjøp som brukes i den mva-pliktige virksomheten gir rett til fradrag. Du har for eksempel ikke fradragsrett for mva på mat, representasjon eller kjøp til privat bruk. Vi veileder deg på hva som er fradragsberettiget." },
+      { q: "Hvem leverer skattemeldingen for bedriften min?", a: "For aksjeselskap leverer vi næringsoppgaven som del av årsoppgjøret. For enkeltpersonforetak inngår næringsoppgaven i din personlige skattemelding, og vi hjelper deg med den." },
+      { q: "Hva skjer hvis vi har etterslep i regnskapet?", a: "Vi hjelper deg å rydde opp. Vi vurderer situasjonen, legger en plan og kommer à jour. Det er bedre å ta tak i det tidlig enn å la det hope seg opp." },
     ],
   },
   {
@@ -69,10 +69,11 @@ export const SERVICES: Service[] = [
     image: { name: "mote-tripletex", alt: "Regnskapslosens team i møterommet, med Tripletex på skjermen", position: "center" },
     teamMember: "team-anna-dillan",
     faqs: [
-      { q: "Hva betyr digitalisering og optimalisering i praksis?", a: "Vi går gjennom hvordan du jobber i dag, og finner oppgaver som kan gjøres enklere, raskere og med færre feil. Deretter hjelper vi deg å sette det opp og ta det i bruk." },
-      { q: "Må vi bytte regnskapssystem?", a: "Ikke nødvendigvis. Vi ser først på hva dere har, og om dere kan få mer ut av det. Skal dere bytte, hjelper vi dere gjennom overgangen." },
-      { q: "Får de ansatte opplæring?", a: "Ja, opplæring av de som skal bruke systemene er en del av jobben." },
-      { q: "Hvor starter vi?", a: "Vi starter med en prat om hvordan hverdagen din ser ut. Ta kontakt, så avtaler vi en uforpliktende samtale." },
+      { q: "Er digitale bilag godkjent?", a: "Ja. Bildet av en kvittering er godkjent som bilag så lenge det er leselig og viser dato, beløp, mva og leverandør. I Tripletex kan du ta bilde med mobilen og sende det rett inn." },
+      { q: "Hva kan automatiseres i Tripletex?", a: "Bankavlesing, kreditorfaktura, bilagsflyt og purringer kan i stor grad automatiseres. Nøyaktig hva som passer for din bedrift avhenger av størrelse og rutiner, og det ser vi på sammen." },
+      { q: "Kan vi koble nettbutikken vår til Tripletex?", a: "Tripletex har integrasjoner mot blant annet WooCommerce, Shopify og flere faktureringssystemer. Vi hjelper deg å sette opp koblingen og teste at tallene stemmer." },
+      { q: "Hva koster det å bytte regnskapssystem?", a: "Selve Tripletex-lisensen er rimelig, men overgangen tar tid og krever opplæring. Vi planlegger byttet slik at du ikke mister historikk og at driften ikke stopper opp." },
+      { q: "Hvem eier dataene i systemet?", a: "Det gjør du. Tripletex er et norsk system med servere i Norge, og dataene dine tilhører deg, ikke systemleverandøren eller oss." },
     ],
   },
   {
@@ -96,10 +97,10 @@ export const SERVICES: Service[] = [
     image: { name: "mote-gjennomgang", alt: "Regnskapslosen-teamet planlegger oppgaver sammen i møterom", position: "center" },
     teamMember: "team-jorunn-stromsvag",
     faqs: [
-      { q: "Hva menes med strukturering?", a: "Vi lager en tydelig plan for hvem som gjør hva og når, slik at økonomioppgavene blir forutsigbare for alle." },
-      { q: "Hjelper dere med frister?", a: "Ja. Vi gir deg oversikt over frister og sørger for at rutinene er på plass, så du slipper overraskelser." },
-      { q: "Passer det også for en liten bedrift?", a: "Ja. Små virksomheter har ofte mest å vinne på enkle, faste rutiner." },
-      { q: "Kan dere ta over rutinene helt?", a: "Det avtaler vi sammen. Noen vil gjøre mest selv, andre vil overlate det meste til oss." },
+      { q: "Hvem er ansvarlig for mva-meldingen, oss eller dere?", a: "Det avtaler vi tydelig fra start. Som autorisert regnskapsfører tar vi ansvaret for mva-meldingen på vegne av deg, men du er alltid informert om hva som leveres og når." },
+      { q: "Hva bør vi ha klart til årsoppgjøret?", a: "Alle bilag bokført og avstemt, banken kontrollert, utestående fakturaer avklart og eventuelle lønn- og feriepengeposter på plass. Vi sender deg en sjekkliste i god tid." },
+      { q: "Hva gjør vi hvis vi ansetter noen for første gang?", a: "Du blir arbeidsgiverpliktig med A-melding, feriepenger, yrkesskadeforsikring og eventuelt pensjon (OTP). Vi hjelper deg å sette opp alt riktig fra start." },
+      { q: "Kan dere overta rutinene fra en regnskapsfører vi bytter fra?", a: "Ja. Vi innhenter informasjon fra den tidligere regnskapsføreren, går gjennom status og sørger for en smidig overgang uten hull i historikken." },
     ],
   },
   {
@@ -121,10 +122,11 @@ export const SERVICES: Service[] = [
     image: { name: "to-kollegaer-banner", alt: "To kolleger fra Regnskapslosen foran roll-up på kontoret", position: "center" },
     teamMember: "team-grete-orsal",
     faqs: [
-      { q: "Hvilken selskapsform bør jeg velge?", a: "Det avhenger av risiko, økonomi, antall eiere og planene dine. Vi går gjennom alternativene med deg, for eksempel enkeltpersonforetak og aksjeselskap." },
-      { q: "Hjelper dere med registrering?", a: "Ja, vi hjelper deg å registrere selskapet og følger opp det praktiske etterpå." },
-      { q: "Kan dere sette opp regnskapet fra dag én?", a: "Ja. Vi setter opp regnskap og system i Tripletex fra start, slik at du kommer rett i gang." },
-      { q: "Kan jeg endre selskapsform senere?", a: "Ofte ja. Ta kontakt hvis du vurderer å endre, så ser vi på hva som er best for deg." },
+      { q: "Når bør jeg gå fra ENK til AS?", a: "En vanlig tommelfingerregel er når overskuddet overstiger omtrent 500 000 kroner, fordi AS-strukturen da kan gi lavere skatt og et tydeligere skille mellom privat og bedrift. Tidspunktet avhenger også av risiko og vekstplaner. Vi regner på din situasjon." },
+      { q: "Hva er minimumskravet til aksjekapital?", a: "Du trenger minst 30 000 kroner i aksjekapital for å stifte et AS. Beløpet kan du selv bestemme bruken av, og det trenger ikke stå ubrukt." },
+      { q: "Kan jeg omdanne ENK til AS uten å skatte av det?", a: "Ja, skattefri omdanning er mulig hvis du gjør det etter reglene. Det innebærer at alle eiendeler og gjeld overføres til AS-et til skattemessige verdier. Vi hjelper deg gjennom prosessen." },
+      { q: "Hva er forskjellen på lønn og utbytte fra AS-et?", a: "Lønn er fradragsberettiget i selskapet og gir deg pensjonsopptjening, men belastes trygdeavgift. Utbytte beskattes som kapitalinntekt uten trygdeavgift, men er ikke fradragsberettiget. Den beste kombinasjonen avhenger av din situasjon." },
+      { q: "Kan jeg starte et AS alene?", a: "Ja, du kan stifte et AS alene som enestyre og eneaksjonær. Du trenger ikke partnere." },
     ],
   },
   {
