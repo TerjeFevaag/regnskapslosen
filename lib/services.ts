@@ -22,12 +22,12 @@ export const SERVICES: Service[] = [
   {
     slug: "regnskap",
     title: "Regnskap fra A til Å",
-    text: "Komplett regnskap med lønnskjøring. Alt fra små enkeltpersonforetak til større aksjeselskaper.",
+    text: "Regnskapet skal alltid stemme og fristene holdes – uten at du trenger å bruke tid på det selv. Vi tar det løpende fra første bilag til årsoppgjøret.",
     metaDescription:
       "Komplett regnskap og lønnskjøring i Kristiansund, for alt fra enkeltpersonforetak til aksjeselskaper. Regnskapslosen fører regnskapet i Tripletex.",
     intro: [
-      "Vi tar oss av hele regnskapet, fra bilag og bokføring til lønnskjøring og avslutning. Du får en fast kontaktperson som kjenner virksomheten din.",
-      "Vi jobber i Tripletex, så du kan se tallene dine når du vil.",
+      "Mange bedriftseiere bruker mer tid enn de burde på regnskapet – eller oppdager for sent at noe er feil. Forsinkede bilag, glemt mva-melding og et regnskap som ikke stemmer skaper stress og kan koste penger.",
+      "Vi tar over det løpende arbeidet: bokføring, lønnskjøring, mva-meldinger og årsoppgjør. Du får en fast kontaktperson som kjenner virksomheten din, og tilgang til egne tall i Tripletex når du vil.",
     ],
     points: [
       "Løpende bokføring og avstemming",
@@ -51,12 +51,12 @@ export const SERVICES: Service[] = [
   {
     slug: "digitalisering-og-optimalisering",
     title: "Digitalisering og optimalisering",
-    text: "Vi bruker teknologi til å fornye, forenkle og forbedre. Tjenestene våre er enkle å bruke, effektive og pålitelige.",
+    text: "Manuelt arbeid, dobbeltregistrering og rutiner ingen har sett på siden de ble laget koster mer enn du tror. Vi finner ut hva som kan forbedres – og gjør det.",
     metaDescription:
       "Digitalisering og optimalisering av arbeidsoppgaver og rutiner i regnskap og økonomi. Regnskapslosen hjelper bedrifter i Kristiansund.",
     intro: [
-      "Digitalisering og optimalisering av arbeidsoppgaver er der Regnskapslosen startet. Vi hjelper deg å bruke teknologi til å fornye, forenkle og forbedre rutinene i bedriften.",
-      "Målet er løsninger som er enkle å bruke, effektive og pålitelige.",
+      "Digitalisering og optimalisering er der Regnskapslosen startet. Vi har hjulpet mange bedrifter finne arbeidsoppgaver som kan automatiseres, systemer som snakker bedre sammen, og rutiner som faktisk holder i hverdagen.",
+      "Vi begynner alltid med en gjennomgang av hvordan dere jobber i dag. Deretter setter vi opp systemene riktig, lærer opp de som skal bruke dem, og følger opp til det fungerer.",
     ],
     points: [
       "Gjennomgang av dagens rutiner",
@@ -106,11 +106,12 @@ export const SERVICES: Service[] = [
   {
     slug: "selskapsetablering",
     title: "Selskapsetablering",
-    text: "Hjelp til å velge selskapsform, registrere og administrere selskapet.",
+    text: "Valg av selskapsform har mer å si for skatten og risikoen din enn de fleste tror. Vi hjelper deg ta riktig beslutning – og setter alt opp fra start.",
     metaDescription:
       "Hjelp til selskapsetablering i Kristiansund: valg av selskapsform, registrering og administrasjon. Regnskapslosen AS.",
     intro: [
-      "Skal du starte virksomhet? Vi hjelper deg å velge selskapsform, registrere selskapet og administrere det etterpå.",
+      "ENK eller AS? Mange velger selskapsform uten å ha regnet på konsekvensene. Feil valg kan bety unødvendig høy skatt, personlig ansvar for gjeld, eller at du må gjøre en ombygging senere.",
+      "Vi veileder deg gjennom valget, registrerer selskapet og setter opp regnskapet riktig fra dag én. Du slipper å bruke tid på byråkrati og starter heller på det som faktisk driver virksomheten fremover.",
     ],
     points: [
       "Valg av selskapsform",
@@ -118,7 +119,7 @@ export const SERVICES: Service[] = [
       "Oppstart av regnskap og system",
       "Løpende administrasjon av selskapet",
     ],
-    forWho: "Deg som skal starte egen virksomhet, eller endre selskapsform.",
+    forWho: "Deg som skal starte ny virksomhet, omdanne ENK til AS, eller trenger hjelp å forstå hvilken selskapsform som passer best.",
     image: { name: "to-kollegaer-banner", alt: "To kolleger fra Regnskapslosen foran roll-up på kontoret", position: "center" },
     teamMember: "team-grete-orsal",
     faqs: [
@@ -132,12 +133,12 @@ export const SERVICES: Service[] = [
   {
     slug: "controller",
     title: "Controller",
-    text: "Oppfølging av regnskapet gjennom året, slik at informasjonen er korrekt. Hjelp til budsjettering, likviditetsstyring og rapportering.",
+    text: "Tallene i regnskapet forteller deg lite hvis ingen analyserer dem. Vi gir deg den økonomiske innsikten du trenger for å styre bedriften fremover – ikke bare se hva som skjedde.",
     metaDescription:
       "Controllertjenester for små og mellomstore bedrifter: oppfølging av regnskap, budsjettering, likviditetsstyring og rapportering. Regnskapslosen, Kristiansund.",
     intro: [
-      "Vi følger opp regnskapet gjennom året, slik at informasjonen er korrekt når du skal ta beslutninger.",
-      "Du får hjelp til budsjettering, likviditetsstyring og rapportering.",
+      "Mange bedrifter har regnskap som er teknisk korrekt, men som ingen bruker til å ta beslutninger. Budsjettet er fra januar, likviditeten er ukjent, og rapporten til banken skriver seg selv måneden den forfaller.",
+      "Vi følger opp tallene løpende gjennom året, lager budsjetter og likviditetsprognoser, og gir deg rapporter du faktisk forstår. Målet er at du alltid vet hvor bedriften står – ikke bare hva den gjorde.",
     ],
     points: [
       "Løpende kontroll av regnskapet",
@@ -160,12 +161,12 @@ export const SERVICES: Service[] = [
   {
     slug: "okonomisk-radgiving",
     title: "Økonomisk rådgiving",
-    text: "Rådgiving innen økonomi og regnskap, og økonomisk konsulentvirksomhet.",
+    text: "Noen beslutninger er for viktige til å ta på magefølelse. Vi hjelper deg forstå tallene bak – slik at du velger riktig.",
     metaDescription:
       "Økonomisk rådgiving og konsulenttjenester innen økonomi og regnskap for små og mellomstore bedrifter i Kristiansund.",
     intro: [
-      "Vi gir rådgiving innen økonomi og regnskap, og tilbyr økonomisk konsulentvirksomhet.",
-      "Vi hjelper deg å ta beslutninger i tråd med selskapets strategi og økonomiske evne.",
+      "Skal du investere i nytt utstyr, ansette, ta ut lønn eller utbytte, kjøpe ut en kompanjong? Mange slike valg har store konsekvenser for skatten og selskapet, og det finnes sjelden ett riktig svar.",
+      "Vi regner på konsekvensene, presenterer alternativene og gir deg et klart bilde av hva som passer for din situasjon. Du bestemmer – vi sørger for at du har grunnlaget for å gjøre det trygt.",
     ],
     points: [
       "Rådgiving i økonomiske spørsmål",
