@@ -3,16 +3,16 @@ import type { Faq } from "./services";
 // Draft copy – the client must review these answers.
 export const HOME_FAQS: Faq[] = [
   {
-    q: "Hva gjør et regnskapskontor?",
-    a: "Vi fører regnskapet for bedriften din: bokføring, lønn, mva, årsoppgjør og oppfølging av tallene. Du får mer tid til å drive virksomheten, og oversikt over økonomien.",
+    q: "Hva er forskjellen på regnskapsfører og revisor?",
+    a: "En regnskapsfører fører det løpende regnskapet: bokføring, lønn, mva og årsoppgjør. En revisor kontrollerer regnskapet i ettertid og bekrefter at det er riktig. De fleste små og mellomstore bedrifter trenger regnskapsfører, men ikke revisor. Revisjonsplikten inntrer først ved en viss størrelse.",
   },
   {
     q: "Hvem hjelper dere?",
     a: "Små og mellomstore bedrifter i Kristiansund og omegn, alt fra enkeltpersonforetak til aksjeselskaper. Vi hjelper også deg som skal starte ny virksomhet.",
   },
   {
-    q: "Får jeg en fast kontaktperson?",
-    a: "Ja. Du har én fast person som kjenner virksomheten din og er lett å nå. Vi tror på nærhet og personlig oppfølging.",
+    q: "Hva koster det å bruke regnskapsfører?",
+    a: "Prisen avhenger av størrelsen på bedriften, antall bilag og hvilke tjenester du trenger. Et enkelt enkeltpersonforetak koster vesentlig mindre enn et aksjeselskap med lønn og mva. Ta kontakt for et uforpliktende pristilbud tilpasset din virksomhet.",
   },
   {
     q: "Hvilket regnskapssystem bruker dere?",
