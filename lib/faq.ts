@@ -28,6 +28,6 @@ export const HOME_FAQS: Faq[] = [
   },
   {
     q: "Hvor holder dere til?",
-    a: "Vi sitter i Storgata 2 i sentrum av Kristiansund, og du er velkommen innom i åpningstiden.",
+    a: "Vi sitter i Storgata 2 i sentrum av Kristiansund, og du er velkommen innom i åpningstiden. Vi jobber digitalt og betjener bedrifter i hele Norge.",
   },
 ];
