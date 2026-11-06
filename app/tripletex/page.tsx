@@ -6,20 +6,24 @@ import { FaqSection } from "@/components/Faq";
 
 const TRIPLETEX_FAQS = [
   {
-    q: "Hva er Tripletex?",
-    a: "Tripletex er et komplett og nettbasert økonomisystem for regnskap, fakturering, lønn, timeføring og prosjekter.",
+    q: "Hva gjør jeg selv i Tripletex, og hva gjør dere?",
+    a: "Vi tar bokføringen, mva-meldingen, lønn og årsoppgjøret. Du bruker Tripletex til det du vil ha kontroll på selv: sende fakturaer, registrere utlegg og se tallene i sanntid. Fordelingen tilpasser vi etter ditt behov.",
   },
   {
-    q: "Må jeg kjøpe Tripletex selv?",
-    a: "Vi hjelper deg å sette opp og komme i gang. Hva som gjelder for lisens og pris avtaler vi sammen, så ta kontakt.",
+    q: "Kan vi ta med historikken fra systemet vi bruker i dag?",
+    a: "I de fleste tilfeller ja. Vi henter ut det som finnes og importerer til Tripletex slik at du ikke mister oversikten over tidligere år. Hva som er mulig å ta med avhenger av hvilket system dere kommer fra.",
   },
   {
-    q: "Kan jeg se regnskapet mitt når jeg vil?",
-    a: "Ja. Siden systemet er nettbasert, ser du tallene dine i sanntid, og vi følger dem opp sammen med deg.",
+    q: "Hvem betaler for Tripletex-lisensen?",
+    a: "Lisensen betales av deg som klient. Prisen avhenger av hvilke moduler du trenger, og vi hjelper deg å velge riktig pakke. Mange opplever at tidsgevinsten og oversikten langt overstiger lisenskostnaden.",
   },
   {
-    q: "Hjelper dere hvis jeg bruker et annet system i dag?",
-    a: "Ja. Vi ser på hva du har, og hjelper deg gjennom en eventuell overgang til Tripletex.",
+    q: "Kan jeg bruke Tripletex på telefonen?",
+    a: "Ja. Tripletex har en egen app for iOS og Android der du kan sende fakturaer, fotografere kvitteringer og se saldoen. Mange bruker den til daglige ting mens vi håndterer resten.",
+  },
+  {
+    q: "Hva er forskjellen på Tripletex og Fiken?",
+    a: "Tripletex er et fullstendig regnskapssystem som håndterer alt fra bilag og mva til lønn og prosjektregnskap. Fiken er enklere og passer best for svært små bedrifter uten komplekse behov. For de fleste bedrifter vi jobber med gir Tripletex bedre kontroll og mer fleksible integrasjoner.",
   },
 ];
 
