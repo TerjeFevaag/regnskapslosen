@@ -133,21 +133,21 @@ export const SERVICES: Service[] = [
   {
     slug: "controller",
     title: "Controller",
-    text: "Tallene i regnskapet forteller deg lite hvis ingen analyserer dem. Vi gir deg den økonomiske innsikten du trenger for å styre bedriften fremover – ikke bare se hva som skjedde.",
+    text: "Regnskapsfører fører det som har skjedd. Controller forteller deg hva som er i ferd med å skje – tidlig nok til å gjøre noe med det.",
     metaDescription:
       "Controllertjenester for små og mellomstore bedrifter: oppfølging av regnskap, budsjettering, likviditetsstyring og rapportering. Regnskapslosen, Kristiansund.",
     intro: [
-      "Mange bedrifter har regnskap som er teknisk korrekt, men som ingen bruker til å ta beslutninger. Budsjettet er fra januar, likviditeten er ukjent, og rapporten til banken skriver seg selv måneden den forfaller.",
-      "Vi følger opp tallene løpende gjennom året, lager budsjetter og likviditetsprognoser, og gir deg rapporter du faktisk forstår. Målet er at du alltid vet hvor bedriften står – ikke bare hva den gjorde.",
+      "Mange voksende bedrifter oppdager for sent at lønnsomheten er lavere enn den ser ut, at likviditeten strammer seg til, eller at budsjettet fra januar ikke lenger henger sammen med virkeligheten. Problemet er ikke regnskapet – det er at ingen analyserer det.",
+      "Vi fungerer som din deltids-økonomisjef. Vi går gjennom tallene jevnlig, varsler deg om avvik og muligheter, og gir deg et klart bilde av om bedriften er i rute – på et språk du forstår, ikke bare kontostrenger og kolonner.",
     ],
     points: [
-      "Løpende kontroll av regnskapet",
-      "Budsjettering",
-      "Likviditetsstyring",
-      "Rapportering som er enkel å forstå",
+      "Månedlig gjennomgang av resultat og likviditet",
+      "Budsjett og løpende avviksanalyse",
+      "Likviditetsprognose fremover i tid",
+      "Rapporter for deg, styret eller banken",
     ],
     forWho:
-      "Bedrifter som trenger bedre kontroll og oversikt, men ikke har egen økonomiavdeling.",
+      "Bedrifter i vekst eller med kompleksitet som ikke kan forsvare en heltids økonomisjef – men trenger noen som holder den oversikten.",
     image: { name: "kontor-kollegaer", alt: "Regnskapsfører og kollega ved skrivebordet", position: "center" },
     teamMember: "team-anna-dillan",
     faqs: [
