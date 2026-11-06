@@ -16,7 +16,7 @@ export const HOME_FAQS: Faq[] = [
   },
   {
     q: "Hvilket regnskapssystem bruker dere?",
-    a: "Vi fører regnskapet i Tripletex, et komplett og nettbasert økonomisystem. Vi setter det opp, lærer deg det du trenger og tar det daglige arbeidet.",
+    a: "Vi fører regnskapet i Tripletex, et komplett og nettbasert økonomisystem. Vi setter det opp og lærer deg det du trenger. Noen ønsker at vi tar alt det daglige arbeidet, andre vil gjøre mye selv – Tripletex gjør begge deler mulig.",
   },
   {
     q: "Hvordan kommer jeg i gang?",
