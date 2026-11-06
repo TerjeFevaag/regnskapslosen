@@ -172,7 +172,7 @@ export function History() {
 export function ContactBand() {
   return (
     <section className="bg-green-soft">
-      <Container className="grid items-center gap-10 pb-6 pt-16 md:grid-cols-[1fr_auto]">
+      <Container className="grid items-center gap-10 py-16 md:grid-cols-[1fr_auto]">
         <div>
           <p className="mb-3 font-display text-sm font-semibold uppercase tracking-wider text-green">
             Vi hører gjerne fra deg
