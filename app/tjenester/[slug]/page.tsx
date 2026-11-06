@@ -33,7 +33,7 @@ export default async function ServicePage({ params }: Props) {
       "@type": "Service",
       name: s.title,
       description: s.metaDescription,
-      areaServed: "Kristiansund",
+      areaServed: "Norge",
       provider: { "@type": "AccountingService", name: SITE.name, url: SITE.url },
     },
     {
