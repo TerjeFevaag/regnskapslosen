@@ -169,7 +169,6 @@ export function PageHero({
           />
         )}
       </Container>
-      <Mountains className="mt-8 h-16 sm:h-24" />
     </section>
   );
 }

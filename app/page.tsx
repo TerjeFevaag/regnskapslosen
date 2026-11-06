@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button, Container, Eyebrow, Photo, SectionHeading, Mountains } from "@/components/ui";
+import { Button, Container, Eyebrow, Photo, SectionHeading } from "@/components/ui";
 import {
   ContactBand,
   History,
@@ -50,7 +50,6 @@ export default function Home() {
             </p>
           </div>
         </Container>
-        <Mountains className="relative z-10 -mt-16 h-20 sm:h-32" />
       </section>
 
       <OneToOne />

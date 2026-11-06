@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HISTORY, SERVICES, STEPS, TEAM } from "@/lib/site";
-import { Button, Container, Eyebrow, Mountains, Photo, SectionHeading } from "./ui";
+import { Button, Container, Eyebrow, Photo, SectionHeading } from "./ui";
 
 export function ServicesGrid() {
   return (
@@ -199,7 +199,6 @@ export function ContactBand() {
           className="aspect-[5/4] w-full max-w-sm mx-auto md:w-72 md:mx-0 lg:w-96"
         />
       </Container>
-      <Mountains className="mt-10 h-16 sm:h-24" />
     </section>
   );
 }
