@@ -8,7 +8,7 @@ export const HOME_FAQS: Faq[] = [
   },
   {
     q: "Hvem hjelper dere?",
-    a: "Små og mellomstore bedrifter i Kristiansund og omegn, alt fra enkeltpersonforetak til aksjeselskaper. Vi hjelper også deg som skal starte ny virksomhet.",
+    a: "Små og mellomstore bedrifter over hele landet, alt fra enkeltpersonforetak til aksjeselskaper. Vi holder til i Kristiansund, men jobber digitalt og hjelper bedrifter uansett hvor du er. Vi hjelper også deg som skal starte ny virksomhet.",
   },
   {
     q: "Hva koster det å bruke regnskapsfører?",
