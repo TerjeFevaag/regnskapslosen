@@ -148,10 +148,11 @@ export const SERVICES: Service[] = [
     image: { name: "kontor-kollegaer", alt: "Regnskapsfører og kollega ved skrivebordet", position: "center" },
     teamMember: "team-anna-dillan",
     faqs: [
-      { q: "Hva gjør en controller for meg?", a: "Vi følger opp regnskapet gjennom året, slik at tallene er riktige, og hjelper deg med budsjett, likviditet og rapportering." },
-      { q: "Trenger jeg dette hvis dere allerede fører regnskapet?", a: "Regnskapet viser hva som har skjedd. Controllerrollen handler om å bruke tallene til å styre fremover." },
-      { q: "Hvor ofte får jeg rapporter?", a: "Det avtaler vi ut fra hva du trenger, for eksempel månedlig eller kvartalsvis." },
-      { q: "Passer det for små bedrifter?", a: "Ja, spesielt hvis du ikke har egen økonomiavdeling." },
+      { q: "Hva er forskjellen på regnskapsføring og controller-tjeneste?", a: "Regnskapsføring dokumenterer det som har skjedd: bilag, lønn, mva og årsoppgjør. Controller-tjenesten bruker tallene til å styre fremover: budsjett, likviditetsstyring, analyser og rapportering. De to utfyller hverandre godt." },
+      { q: "Hva er en likviditetsprognose, og trenger vi det?", a: "En likviditetsprognose viser når penger kommer inn og går ut de neste ukene og månedene. Det gir deg tid til å handle før det eventuelt strammer seg til, i stedet for å bli overrasket. De fleste bedrifter har nytte av det." },
+      { q: "Kan dere hjelpe oss å forstå hvorfor lønnsomheten har falt?", a: "Ja. Vi går gjennom tallene, skiller mellom volum, margin og kostnad, og finner ut hva som faktisk driver endringen. Det er en av de mest verdifulle tingene vi kan gjøre for en bedrift." },
+      { q: "Hvem bør eie budsjettprosessen?", a: "Budsjettet bør utarbeides av deg som kjenner driften. Vi bidrar med strukturen, tallgrunnlaget og kvalitetssikrer at det er realistisk og kan brukes til løpende oppfølging." },
+      { q: "Hvor ofte bør vi ha økonomirapport?", a: "Det avhenger av størrelse og tempo i bedriften. Mange har nytte av månedlig rapport; kvartalsvis passer for roligere virksomheter. Vi tilpasser det til ditt behov." },
     ],
   },
   {
