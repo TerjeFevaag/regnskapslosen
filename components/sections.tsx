@@ -237,7 +237,7 @@ export function OneToOne() {
           />
         </div>
         <div>
-          <Eyebrow>Personlig, hver eneste dag</Eyebrow>
+          <Eyebrow>Alltid den samme personen</Eyebrow>
           <h2 className="text-3xl sm:text-4xl">
             Regnskap med mennesker bak tallene
           </h2>
