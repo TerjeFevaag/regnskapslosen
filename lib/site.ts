@@ -79,7 +79,7 @@ export const STEPS = [
 ];
 
 export const HISTORY = [
-  { year: "1974", text: "Hjelseth Regnskapskontor, byens eldste gjenværende tradisjonelle regnskapskontor, etableres." },
+  { year: "1974", text: "Hjelseth Regnskapskontor, Kristiansunds eldste gjenværende tradisjonelle regnskapskontor, etableres." },
   { year: "2019", text: "Regnskapslosen AS kjøper Hjelseth Regnskap, som drives videre under eget navn." },
   { year: "2024", text: "Vi tar tilbake navnet Regnskapslosen og viderefører et tradisjonelt og moderne regnskapskontor." },
 ];
