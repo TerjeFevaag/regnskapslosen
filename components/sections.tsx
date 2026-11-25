@@ -66,7 +66,7 @@ export function TripletexSection({ full = false }: { full?: boolean }) {
           </div>
           <div>
             <Image
-              src="/brand/tripletex-sertifisert.jpg"
+              src="/brand/tripletex-sertifisert.png"
               alt="Tripletex – Sertifisert partner"
               width={500}
               height={242}
