@@ -66,10 +66,10 @@ export function TripletexSection({ full = false }: { full?: boolean }) {
           </div>
           <div>
             <Image
-              src="/brand/tripletex.png"
-              alt="Tripletex"
+              src="/brand/tripletex-sertifisert.jpg"
+              alt="Tripletex – Sertifisert partner"
               width={500}
-              height={169}
+              height={242}
               className="h-14 w-auto"
             />
             <h2 className="mt-8 text-3xl sm:text-4xl">
