@@ -58,7 +58,7 @@ export default function Home() {
         <Container>
           <SectionHeading
             eyebrow="Tjenester"
-            title="Hva kan vi hjelpe med?"
+            title="Regnskapstjenester for små og store bedrifter"
             intro="Fra daglig bokføring til rådgiving og digitalisering. Vi hjelper alt fra enkeltpersonforetak til større aksjeselskaper."
           />
           <div className="mt-12">
