@@ -23,7 +23,7 @@ export function ServicesGrid() {
               aria-label={`Les mer om ${s.title}`}
               className="mt-auto inline-block self-start pt-4 font-display text-sm font-semibold text-green underline underline-offset-4"
             >
-              Les mer →
+              Les mer om {(s.shortTitle ?? s.title).toLowerCase()} →
             </Link>
           </div>
         </article>
@@ -39,7 +39,7 @@ const TRIPLETEX_POINTS = [
   },
   {
     title: "Tilpasses din bedrift",
-    text: "Sømløst integrerte moduler, med lager og lønn når du trenger det.",
+    text: "Sømløst integrerte moduler, med lager og prosjekter når du trenger det.",
   },
   {
     title: "Sanntidsoversikt",
@@ -76,9 +76,9 @@ export function TripletexSection({ full = false }: { full?: boolean }) {
               Vi fører regnskapet i Tripletex
             </h2>
             <p className="mt-5 text-lg text-muted">
-              Tripletex er et smart, komplett og nettbasert økonomisystem. Vi
-              setter det opp for deg, lærer deg det du trenger og tar det
-              daglige arbeidet, slik at du får full oversikt uten å bruke tid på
+              Som sertifisert partner kjenner vi Tripletex ut og inn. Vi setter
+              det opp for deg, lærer deg det du trenger og tar det daglige
+              arbeidet – slik at du får full oversikt uten å bruke tid på
               regnskap.
             </p>
             {!full && (

@@ -57,8 +57,8 @@ export default function Home() {
       <section className="pb-20">
         <Container>
           <SectionHeading
-            eyebrow="Hva kan vi hjelpe med?"
-            title="Tjenester"
+            eyebrow="Tjenester"
+            title="Hva kan vi hjelpe med?"
             intro="Fra daglig bokføring til rådgiving og digitalisering. Vi hjelper alt fra enkeltpersonforetak til større aksjeselskaper."
           />
           <div className="mt-12">

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tripletex" },
   title: "Tripletex",
   description:
-    "Regnskapslosen fører regnskapet i Tripletex, et komplett og nettbasert økonomisystem. Få oversikt over regnskap, lønn og fakturering.",
+    "Regnskapslosen er sertifisert Tripletex-partner. Vi setter opp systemet, fører regnskapet og lærer deg det du trenger. Full oversikt over regnskap, lønn og fakturering.",
 };
 
 const AREAS = [
