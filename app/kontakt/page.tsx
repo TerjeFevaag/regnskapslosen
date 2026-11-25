@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/kontakt" },
   title: "Kontakt",
   description:
-    "Kontakt Regnskapslosen AS i Storgata 2, Kristiansund. Telefon 986 86 610 / 454 74 718, post@regnskapslosen.no.",
+    "Kontakt Regnskapslosen AS i Storgata 2, Kristiansund. Telefon 986 86 610 / 454 71 708, post@regnskapslosen.no.",
 };
 
 export default function Kontakt() {
