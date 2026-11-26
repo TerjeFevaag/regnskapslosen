@@ -47,16 +47,30 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "AccountingService",
   name: SITE.name,
+  legalName: SITE.name,
   url: SITE.url,
-  telephone: SITE.phone,
+  telephone: [SITE.phone, SITE.phone2],
   email: SITE.email,
   image: `${SITE.url}/brand/logo.png`,
+  logo: `${SITE.url}/brand/logo.png`,
+  description:
+    "Autorisert regnskapskontor i Kristiansund som betjener bedrifter i hele Norge. Vi tilbyr regnskap, lønn, digitalisering og økonomisk rådgiving – med en fast kontaktperson per kunde.",
+  areaServed: {
+    "@type": "Country",
+    name: "Norway",
+  },
   address: {
     "@type": "PostalAddress",
     streetAddress: SITE.street,
     postalCode: SITE.postcode,
     addressLocality: "Kristiansund",
+    addressRegion: "Møre og Romsdal",
     addressCountry: "NO",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 63.1107,
+    longitude: 7.7281,
   },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -64,6 +78,7 @@ const jsonLd = {
     opens: "08:00",
     closes: "16:00",
   },
+  ...(SITE.orgnr ? { taxID: SITE.orgnr } : {}),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
