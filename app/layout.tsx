@@ -3,6 +3,7 @@ import { Montserrat, Source_Sans_3 } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import ScrollToTop from "@/components/ScrollToTop";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Hopp til innhold
         </a>
+        <ScrollToTop />
         <Header />
         <main id="innhold">{children}</main>
         <Footer />
