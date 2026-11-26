@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     title: "Digitalisering og optimalisering",
     text: "Manuelt arbeid, dobbeltregistrering og rutiner ingen har sett på siden de ble laget koster mer enn du tror. Vi finner ut hva som kan forbedres – og gjør det.",
     metaDescription:
-      "Digitaliser økonomirutinene og spar tid. Regnskapslosen hjelper bedrifter i hele Norge med automatisering, systemvalg og optimalisering av regnskapsprosesser.",
+      "Digitaliser økonomirutinene og spar tid. Regnskapslosen hjelper bedrifter i hele Norge med automatisering, systemvalg og smartere arbeidsflyt i hverdagen.",
     intro: [
       "Digitalisering og optimalisering er der Regnskapslosen startet. Vi har hjulpet mange bedrifter finne arbeidsoppgaver som kan automatiseres, systemer som snakker bedre sammen, og rutiner som faktisk holder i hverdagen.",
       "Vi kartlegger hva som faktisk er problemet, setter opp systemene riktig og sørger for at alle som bruker dem vet hvordan. Mange bedrifter opplever at oppgaver som tok en dag i måneden krymper til en time.",
@@ -84,7 +84,7 @@ export const SERVICES: Service[] = [
     title: "Strukturering",
     text: "Uklare rutiner og ansvar koster tid og skaper unødvendige feil. Vi setter opp et system der alle vet hva de skal gjøre – og når.",
     metaDescription:
-      "Rydd opp i økonomirutinene: Regnskapslosen setter opp klare ansvarslinjer, faste prosesser og oversikt over frister. For bedrifter i hele Norge.",
+      "Uklare rutiner koster tid og penger. Regnskapslosen setter opp klare ansvarslinjer, faste prosesser og oversikt over frister for bedrifter i hele Norge.",
     intro: [
       "Mange bedrifter samler opp bilag, glemmer frister og er usikre på hvem som egentlig har ansvar for hva i regnskapet. Strukturering handler om å rydde opp i det – og holde det ryddig.",
       "Vi kartlegger hvordan dere jobber i dag, finner flaskehalsene og lager et opplegg som fungerer i hverdagen. Resultatet er færre overraskelser, bedre kontroll og et regnskap som er klart når det skal være det.",
@@ -166,7 +166,7 @@ export const SERVICES: Service[] = [
     title: "Økonomisk rådgiving",
     text: "Noen beslutninger er for viktige til å ta på magefølelse. Vi hjelper deg forstå tallene bak – slik at du velger riktig.",
     metaDescription:
-      "Økonomisk rådgiving for bedrifter i hele Norge: hjelp til beslutninger om lønn, utbytte, investering og selskapsstrategi. Regnskapslosen AS.",
+      "Økonomisk rådgiving for bedrifter i hele Norge: hjelp til beslutninger om lønn, utbytte, investering og selskapsstrategi. Ta kontakt for en uforpliktende samtale.",
     intro: [
       "Skal du investere i nytt utstyr, ansette, ta ut lønn eller utbytte, kjøpe ut en kompanjong? Mange slike valg har store konsekvenser for skatten og selskapet, og det finnes sjelden ett riktig svar.",
       "Vi regner på konsekvensene, presenterer alternativene og gir deg et klart bilde av hva som passer for din situasjon. Du bestemmer – vi sørger for at du har grunnlaget for å gjøre det trygt.",
