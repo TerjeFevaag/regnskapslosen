@@ -10,7 +10,7 @@ export const SITE = {
   postcode: "6509",
   city: "Kristiansund N",
   hours: "Mandag–fredag 08.00–16.00",
-  orgnr: "", // TODO: confirm org.nr with client and add here
+  orgnr: "925205958",
 };
 
 export const NAV = [
