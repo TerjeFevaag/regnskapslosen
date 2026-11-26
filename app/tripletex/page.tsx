@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tripletex" },
   title: "Tripletex-regnskapsfører for hele Norge",
   description:
-    "Vi setter opp Tripletex, fører regnskapet og er lett å nå i hverdagen. Bilag, lønn, fakturering og en fast kontaktperson for din bedrift.",
+    "Sertifisert Tripletex-partner i Kristiansund. Vi setter opp systemet, fører regnskapet og er lett å nå i hverdagen – med en fast kontaktperson for din bedrift.",
 };
 
 const AREAS = [
