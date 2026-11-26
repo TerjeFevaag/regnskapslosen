@@ -75,7 +75,7 @@ export const SERVICES: Service[] = [
       { q: "Er digitale bilag godkjent?", a: "Ja. Bildet av en kvittering er godkjent som bilag så lenge det er leselig og viser dato, beløp, mva og leverandør. I Tripletex kan du ta bilde med mobilen og sende det rett inn." },
       { q: "Hva kan automatiseres i Tripletex?", a: "Bankavlesing, kreditorfaktura, bilagsflyt og purringer kan i stor grad automatiseres. Nøyaktig hva som passer for din bedrift avhenger av størrelse og rutiner, og det ser vi på sammen.", link: { text: "Les mer om Tripletex →", href: "/tripletex" } },
       { q: "Kan vi koble nettbutikken vår til Tripletex?", a: "Tripletex har integrasjoner mot blant annet WooCommerce, Shopify og flere faktureringssystemer. Vi hjelper deg å sette opp koblingen og teste at tallene stemmer." },
-      { q: "Hva koster det å bytte regnskapssystem?", a: "Selve Tripletex-lisensen er rimelig. Overgangen er enklere enn mange tror — vi planlegger byttet slik at du ikke mister historikk og at driften ikke stopper opp." },
+      { q: "Hva koster det å bytte regnskapssystem?", a: "Tripletex-lisensen er rimelig, og byttet er gratis. Overgangen er enklere enn mange tror — vi setter det opp og viser deg det nødvendige, slik at du ikke mister historikk og at driften ikke stopper opp." },
       { q: "Hvem eier dataene i systemet?", a: "Det gjør du. Tripletex er et norsk system med servere i Norge, og dataene dine tilhører deg, ikke systemleverandøren eller oss." },
     ],
   },
