@@ -4,9 +4,9 @@ import { ContactBand, ServicesGrid, Steps } from "@/components/sections";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/tjenester" },
-  title: "Tjenester",
+  title: "Tjenester – regnskap, lønn og rådgiving",
   description:
-    "Regnskap, lønn, controller, selskapsetablering og økonomisk rådgiving hos Regnskapslosen i Kristiansund.",
+    "Regnskap, lønn, digitalisering, selskapsetablering, controller og rådgiving for bedrifter i hele Norge. Autorisert regnskapskontor i Kristiansund.",
 };
 
 export default function Tjenester() {

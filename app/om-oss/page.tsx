@@ -4,9 +4,9 @@ import { ContactBand, History, TeamGrid } from "@/components/sections";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/om-oss" },
-  title: "Om oss",
+  title: "Lokalt regnskapskontor siden 1974",
   description:
-    "Regnskapslosen AS er et 100 % lokaleid regnskapskontor med kontor i Kristiansund. Vi betjener bedrifter i hele Norge. Møt teamet og les historien vår.",
+    "Fire statsautoriserte regnskapsførere med kontor i Kristiansund. 100 % lokaleid, med røtter tilbake til 1974. Vi betjener bedrifter i hele Norge.",
 };
 
 export default function OmOss() {

@@ -6,9 +6,9 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/kontakt" },
-  title: "Kontakt",
+  title: "Kontakt regnskapsfører i Kristiansund",
   description:
-    "Kontakt Regnskapslosen AS i Storgata 2, Kristiansund. Telefon 986 86 610 / 454 71 708, post@regnskapslosen.no.",
+    "Send melding, ring eller kom innom kontoret i Storgata 2, Kristiansund. Vi betjener bedrifter i hele Norge og svarer innen én virkedag.",
 };
 
 export default function Kontakt() {

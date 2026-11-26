@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Regnskapslosen AS",
   },
   description:
-    "Regnskapslosen AS er et lokaleid regnskapskontor i sentrum av Kristiansund. Regnskap, lønn, rådgiving og digitalisering i Tripletex.",
+    "Autorisert regnskapskontor i Kristiansund som betjener bedrifter i hele Norge. Fast kontaktperson, regnskap, lønn, digitalisering og rådgiving i Tripletex.",
   alternates: { canonical: "/" },
   applicationName: "Regnskapslosen",
   icons: { icon: "/brand/mark.webp", apple: "/brand/mark.webp" },

@@ -27,7 +27,7 @@ export const SERVICES: Service[] = [
     shortTitle: "Regnskap",
     text: "Du skal ikke bruke en dag mer enn nødvendig på regnskapet. Vi tar alt det løpende – og sier fra hvis noe krever din oppmerksomhet.",
     metaDescription:
-      "Komplett regnskap og lønnskjøring i Kristiansund, for alt fra enkeltpersonforetak til aksjeselskaper. Regnskapslosen fører regnskapet i Tripletex.",
+      "Komplett regnskapsføring og lønnskjøring i Tripletex for bedrifter i hele Norge. Fast kontaktperson tar seg av alt fra bilag til årsregnskap.",
     intro: [
       "Mange bedriftseiere bruker mer tid enn de burde på regnskapet – eller oppdager for sent at noe er feil. Forsinkede bilag, glemt mva-melding og et regnskap som ikke stemmer skaper stress og kan koste penger.",
       "Vi tar over det løpende arbeidet: bokføring, lønnskjøring, mva-meldinger og årsoppgjør. Du får en fast kontaktperson som kjenner virksomheten din, og tilgang til egne tall i Tripletex når du vil.",
@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     title: "Digitalisering og optimalisering",
     text: "Manuelt arbeid, dobbeltregistrering og rutiner ingen har sett på siden de ble laget koster mer enn du tror. Vi finner ut hva som kan forbedres – og gjør det.",
     metaDescription:
-      "Digitalisering og optimalisering av arbeidsoppgaver og rutiner i regnskap og økonomi. Regnskapslosen hjelper bedrifter i Kristiansund.",
+      "Digitaliser økonomirutinene og spar tid. Regnskapslosen hjelper bedrifter i hele Norge med automatisering, systemvalg og optimalisering av regnskapsprosesser.",
     intro: [
       "Digitalisering og optimalisering er der Regnskapslosen startet. Vi har hjulpet mange bedrifter finne arbeidsoppgaver som kan automatiseres, systemer som snakker bedre sammen, og rutiner som faktisk holder i hverdagen.",
       "Vi kartlegger hva som faktisk er problemet, setter opp systemene riktig og sørger for at alle som bruker dem vet hvordan. Mange bedrifter opplever at oppgaver som tok en dag i måneden krymper til en time.",
@@ -84,7 +84,7 @@ export const SERVICES: Service[] = [
     title: "Strukturering",
     text: "Uklare rutiner og ansvar koster tid og skaper unødvendige feil. Vi setter opp et system der alle vet hva de skal gjøre – og når.",
     metaDescription:
-      "Rydd opp i økonomirutinene: Regnskapslosen setter opp klare ansvarslinjer, faste prosesser og oversikt over frister for bedriften din.",
+      "Rydd opp i økonomirutinene: Regnskapslosen setter opp klare ansvarslinjer, faste prosesser og oversikt over frister. For bedrifter i hele Norge.",
     intro: [
       "Mange bedrifter samler opp bilag, glemmer frister og er usikre på hvem som egentlig har ansvar for hva i regnskapet. Strukturering handler om å rydde opp i det – og holde det ryddig.",
       "Vi kartlegger hvordan dere jobber i dag, finner flaskehalsene og lager et opplegg som fungerer i hverdagen. Resultatet er færre overraskelser, bedre kontroll og et regnskap som er klart når det skal være det.",
@@ -111,7 +111,7 @@ export const SERVICES: Service[] = [
     title: "Selskapsetablering",
     text: "Valg av selskapsform har mer å si for skatten og risikoen din enn de fleste tror. Vi hjelper deg ta riktig beslutning – og setter alt opp fra start.",
     metaDescription:
-      "Hjelp til selskapsetablering i Kristiansund: valg av selskapsform, registrering og administrasjon. Regnskapslosen AS.",
+      "Hjelp til selskapsetablering for bedrifter i hele Norge: valg mellom ENK og AS, registrering og første regnskap. Regnskapslosen guider deg fra start.",
     intro: [
       "ENK eller AS? Mange velger selskapsform uten å ha regnet på konsekvensene. Feil valg kan bety unødvendig høy skatt, personlig ansvar for gjeld, eller at du må gjøre en ombygging senere.",
       "Vi veileder deg gjennom valget, registrerer selskapet og setter opp regnskapet riktig fra dag én. Du slipper å bruke tid på byråkrati og starter heller på det som faktisk driver virksomheten fremover.",
@@ -138,7 +138,7 @@ export const SERVICES: Service[] = [
     title: "Controller",
     text: "Regnskapsfører fører det som har skjedd. Controller forteller deg hva som er i ferd med å skje – tidlig nok til å gjøre noe med det.",
     metaDescription:
-      "Controllertjenester for små og mellomstore bedrifter: oppfølging av regnskap, budsjettering, likviditetsstyring og rapportering. Regnskapslosen, Kristiansund.",
+      "Controllertjenester for voksende bedrifter i hele Norge: budsjettering, likviditetsstyring, rapportering og tett oppfølging av regnskapet gjennom året.",
     intro: [
       "Mange voksende bedrifter oppdager for sent at lønnsomheten er lavere enn den ser ut, at likviditeten strammer seg til, eller at budsjettet fra januar ikke lenger henger sammen med virkeligheten. Problemet er ikke regnskapet – det er at ingen analyserer det.",
       "Vi fungerer som din deltids-økonomisjef. Vi går gjennom tallene jevnlig, varsler deg om avvik og muligheter, og gir deg et klart bilde av om bedriften er i rute – på et språk du forstår, ikke bare kontostrenger og kolonner.",
@@ -166,7 +166,7 @@ export const SERVICES: Service[] = [
     title: "Økonomisk rådgiving",
     text: "Noen beslutninger er for viktige til å ta på magefølelse. Vi hjelper deg forstå tallene bak – slik at du velger riktig.",
     metaDescription:
-      "Økonomisk rådgiving og konsulenttjenester innen økonomi og regnskap for små og mellomstore bedrifter i Kristiansund.",
+      "Økonomisk rådgiving for bedrifter i hele Norge: hjelp til beslutninger om lønn, utbytte, investering og selskapsstrategi. Regnskapslosen AS.",
     intro: [
       "Skal du investere i nytt utstyr, ansette, ta ut lønn eller utbytte, kjøpe ut en kompanjong? Mange slike valg har store konsekvenser for skatten og selskapet, og det finnes sjelden ett riktig svar.",
       "Vi regner på konsekvensene, presenterer alternativene og gir deg et klart bilde av hva som passer for din situasjon. Du bestemmer – vi sørger for at du har grunnlaget for å gjøre det trygt.",

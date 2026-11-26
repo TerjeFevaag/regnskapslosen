@@ -29,9 +29,9 @@ const TRIPLETEX_FAQS = [
 
 export const metadata: Metadata = {
   alternates: { canonical: "/tripletex" },
-  title: "Tripletex",
+  title: "Tripletex-regnskapsfører for hele Norge",
   description:
-    "Regnskapslosen er sertifisert Tripletex-partner. Vi setter opp systemet, fører regnskapet og lærer deg det du trenger. Full oversikt over regnskap, lønn og fakturering.",
+    "Vi setter opp Tripletex, fører regnskapet og er lett å nå i hverdagen. Bilag, lønn, fakturering og en fast kontaktperson for din bedrift.",
 };
 
 const AREAS = [
