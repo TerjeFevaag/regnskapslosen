@@ -18,7 +18,7 @@ export type Service = {
   faqs: Faq[];
 };
 
-export type Faq = { q: string; a: string };
+export type Faq = { q: string; a: string; link?: { text: string; href: string } };
 
 export const SERVICES: Service[] = [
   {
@@ -73,7 +73,7 @@ export const SERVICES: Service[] = [
     teamMember: "team-anna-dillan",
     faqs: [
       { q: "Er digitale bilag godkjent?", a: "Ja. Bildet av en kvittering er godkjent som bilag så lenge det er leselig og viser dato, beløp, mva og leverandør. I Tripletex kan du ta bilde med mobilen og sende det rett inn." },
-      { q: "Hva kan automatiseres i Tripletex?", a: "Bankavlesing, kreditorfaktura, bilagsflyt og purringer kan i stor grad automatiseres. Nøyaktig hva som passer for din bedrift avhenger av størrelse og rutiner, og det ser vi på sammen." },
+      { q: "Hva kan automatiseres i Tripletex?", a: "Bankavlesing, kreditorfaktura, bilagsflyt og purringer kan i stor grad automatiseres. Nøyaktig hva som passer for din bedrift avhenger av størrelse og rutiner, og det ser vi på sammen.", link: { text: "Les mer om Tripletex →", href: "/tripletex" } },
       { q: "Kan vi koble nettbutikken vår til Tripletex?", a: "Tripletex har integrasjoner mot blant annet WooCommerce, Shopify og flere faktureringssystemer. Vi hjelper deg å sette opp koblingen og teste at tallene stemmer." },
       { q: "Hva koster det å bytte regnskapssystem?", a: "Selve Tripletex-lisensen er rimelig, men overgangen tar tid og krever opplæring. Vi planlegger byttet slik at du ikke mister historikk og at driften ikke stopper opp." },
       { q: "Hvem eier dataene i systemet?", a: "Det gjør du. Tripletex er et norsk system med servere i Norge, og dataene dine tilhører deg, ikke systemleverandøren eller oss." },
@@ -154,7 +154,7 @@ export const SERVICES: Service[] = [
     image: { name: "kontor-kollegaer", alt: "Regnskapsfører og kollega ved skrivebordet", position: "center" },
     teamMember: "team-anna-dillan",
     faqs: [
-      { q: "Hva er forskjellen på regnskapsføring og controller-tjeneste?", a: "Regnskapsføring dokumenterer det som har skjedd: bilag, lønn, mva og årsoppgjør. Controller-tjenesten bruker tallene til å styre fremover: budsjett, likviditetsstyring, analyser og rapportering. De to utfyller hverandre godt." },
+      { q: "Hva er forskjellen på regnskapsføring og controller-tjeneste?", a: "Regnskapsføring dokumenterer det som har skjedd: bilag, lønn, mva og årsoppgjør. Controller-tjenesten bruker tallene til å styre fremover: budsjett, likviditetsstyring, analyser og rapportering. De to utfyller hverandre godt.", link: { text: "Les mer om regnskapstjenesten →", href: "/tjenester/regnskap" } },
       { q: "Hva er en likviditetsprognose, og trenger vi det?", a: "En likviditetsprognose viser når penger kommer inn og går ut de neste ukene og månedene. Det gir deg tid til å handle før det eventuelt strammer seg til, i stedet for å bli overrasket. De fleste bedrifter har nytte av det." },
       { q: "Kan dere hjelpe oss å forstå hvorfor lønnsomheten har falt?", a: "Ja. Vi går gjennom tallene, skiller mellom volum, margin og kostnad, og finner ut hva som faktisk driver endringen. Det er en av de mest verdifulle tingene vi kan gjøre for en bedrift." },
       { q: "Hvem bør eie budsjettprosessen?", a: "Budsjettet bør utarbeides av deg som kjenner driften. Vi bidrar med strukturen, tallgrunnlaget og kvalitetssikrer at det er realistisk og kan brukes til løpende oppfølging." },
@@ -185,7 +185,7 @@ export const SERVICES: Service[] = [
       { q: "Er det gunstig å kjøpe bil gjennom selskapet?", a: "Det avhenger av bruksmønsteret. Fordelsbeskatning av yrkesbil er høy og kan fort utslette fordelen for de fleste. For biler med mye yrkeskjøring kan det likevel lønne seg. Vi går gjennom tallene for deg før du bestemmer deg." },
       { q: "Hva betyr det at bedriften er lønnsom men ikke har penger?", a: "Resultatet og likviditeten er to forskjellige ting. Bedriften kan vise overskudd mens pengene er bundet i varelager, utestående fakturaer eller avdrag på lån. Vi hjelper deg forstå sammenhengen og planlegge deretter." },
       { q: "Hva bør jeg tenke på hvis jeg vil selge bedriften en dag?", a: "Det er lurt å begynne tidlig. Kjøpere ser på struktur, historikk og lønnsomhet over tid. Vi kan hjelpe deg sette bedriften i stand for salg og gi deg et realistisk bilde av verdien." },
-      { q: "Hva er forskjellen på rådgiving og controller-tjeneste?", a: "Controller handler om løpende oppfølging av tall gjennom året. Rådgiving er mer situasjonsbestemt: en beslutning du skal ta, en problemstilling du vil forstå, eller et spørsmål du ikke finner svaret på andre steder." },
+      { q: "Hva er forskjellen på rådgiving og controller-tjeneste?", a: "Controller handler om løpende oppfølging av tall gjennom året. Rådgiving er mer situasjonsbestemt: en beslutning du skal ta, en problemstilling du vil forstå, eller et spørsmål du ikke finner svaret på andre steder.", link: { text: "Les mer om controller-tjenesten →", href: "/tjenester/controller" } },
     ],
   },
 ];

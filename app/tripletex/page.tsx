@@ -8,6 +8,7 @@ const TRIPLETEX_FAQS = [
   {
     q: "Hva gjør jeg selv i Tripletex, og hva gjør dere?",
     a: "Vi tar bokføringen, mva-meldingen, lønn og årsoppgjøret. Du bruker Tripletex til det du vil ha kontroll på selv: sende fakturaer, registrere utlegg og se tallene i sanntid. Fordelingen tilpasser vi etter ditt behov.",
+    link: { text: "Les mer om regnskapstjenesten →", href: "/tjenester/regnskap" },
   },
   {
     q: "Kan vi ta med historikken fra systemet vi bruker i dag?",

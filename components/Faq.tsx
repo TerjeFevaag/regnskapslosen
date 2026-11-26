@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Faq } from "@/lib/services";
 import { Container, Eyebrow } from "./ui";
 
@@ -50,6 +51,14 @@ export function FaqSection({
                 </span>
               </summary>
               <p className="mt-3 text-muted">{f.a}</p>
+              {f.link && (
+                <Link
+                  href={f.link.href}
+                  className="mt-2 inline-block font-display text-sm font-semibold text-green underline underline-offset-4"
+                >
+                  {f.link.text}
+                </Link>
+              )}
             </details>
           ))}
         </div>

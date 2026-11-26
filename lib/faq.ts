@@ -9,6 +9,7 @@ export const HOME_FAQS: Faq[] = [
   {
     q: "Hvem hjelper dere?",
     a: "Små og mellomstore bedrifter over hele landet, alt fra enkeltpersonforetak til større aksjeselskaper. Vi holder til i Kristiansund, men jobber digitalt og hjelper bedrifter uansett hvor du er. Vi hjelper også deg som skal starte ny virksomhet.",
+    link: { text: "Ta kontakt →", href: "/kontakt" },
   },
   {
     q: "Hva koster det å bruke regnskapsfører?",
@@ -17,6 +18,7 @@ export const HOME_FAQS: Faq[] = [
   {
     q: "Hvilket regnskapssystem bruker dere?",
     a: "Vi fører regnskapet i Tripletex, et komplett og nettbasert økonomisystem. Vi setter det opp og lærer deg det du trenger. Noen ønsker at vi tar alt det daglige arbeidet, andre vil gjøre mye selv – Tripletex gjør begge deler mulig.",
+    link: { text: "Les mer om Tripletex →", href: "/tripletex" },
   },
   {
     q: "Hvordan kommer jeg i gang?",
@@ -25,6 +27,7 @@ export const HOME_FAQS: Faq[] = [
   {
     q: "Kan dere hjelpe meg å starte eget selskap?",
     a: "Ja. Vi hjelper deg å velge selskapsform, registrere selskapet og sette opp regnskapet fra dag én.",
+    link: { text: "Les mer om selskapsetablering →", href: "/tjenester/selskapsetablering" },
   },
   {
     q: "Hvor holder dere til?",
