@@ -43,7 +43,7 @@ export async function POST(req: Request) {
     },
     body: JSON.stringify({
       from: process.env.CONTACT_FROM ?? "Regnskapslosen <noreply@regnskapslosen.no>",
-      to: (process.env.CONTACT_TO ?? "post@regnskapslosen.no").split(",").map(e => e.trim()),
+      to: (process.env.CONTACT_TO ?? "terje@fevaag.no").split(",").map(e => e.trim()),
       reply_to: epost,
       subject: `Ny henvendelse fra ${navn}`,
       text: `Navn: ${navn}\nE-post: ${epost}\nTelefon: ${telefon || "-"}\n\n${melding}`,
